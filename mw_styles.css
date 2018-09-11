@@ -14,7 +14,8 @@
 
 
 /* Structural Styles */
-html {
+/* What im doing here is putting the background color for the web page, body, and footer.Next i set the font and then put the padding top and bottom at 5px and the address 10px.  */
+and footer. And also html {
     background-color: rgb(173, 189, 227);
 }
 
@@ -38,12 +39,14 @@ address {
 }
 
 /* Heading Styles */
+/* The font-weight determines how bold the text is  */
 h1,
 h2 {
     font-weight: normal;
 }
 
 /* Navigation Styles */
+/* nqv*/
 nav>ul {
     list-style-type: none;
     font-size: 0.9em;
@@ -72,7 +75,7 @@ article#tour_summary p {
     font-size: 1.1em;
 }
 
-article#tour_summary>p:first-of-type {
+article#tour_summary>p:first-of-type::first-line {
     font-size: 1.2em;
     font-variant: small-caps;
 }
